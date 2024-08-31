@@ -45,7 +45,7 @@ AUTHORIZED_USER_IDS = [123456]  # 替换为你的用户ID
 ~~~
 
 这个TOTP是对于我的一个小功能，因为我的服务器靠TOTP登录。没有这方面需求的可以忽略，随便给几个字符。
-用户ID是判断和机器人对话的是不是你本人，可以用https://t.me/userinfobot这个机器人查询自己的ID。
+用户ID是判断和机器人对话的是不是你本人，可以用https://t.me/userinfobot 这个机器人查询自己的ID。
 改好后，可以使用supervisor挂着，这里我也再写一下方法：
 ~~~bash
 sudo apt install supervisor
